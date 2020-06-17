@@ -2,11 +2,20 @@
   "name": "util-help",
   "version": "1.0.0",
   "description": "Helper methods for protractor",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perivoje/util-help.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "perivoje",
   "license": "ISC"
 }
