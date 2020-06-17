@@ -1,6 +1,6 @@
 {
   "name": "util-help",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helper methods for protractor",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
