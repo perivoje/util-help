@@ -15,6 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/perivoje/util-help.git"
   },
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "protractor": "^7.0.0"
+  },
   "keywords": [],
   "author": "perivoje",
   "license": "ISC"
