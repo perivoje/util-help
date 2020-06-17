@@ -15,6 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/perivoje/util-help.git"
   },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "protractor": "^7.0.0"
+  },
   "dependencies": {
     "@types/node": "^14.0.13",
     "protractor": "^7.0.0"
