@@ -1,6 +1,6 @@
 {
   "name": "util-help",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Helper methods for protractor",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,6 +9,7 @@
   ],
   "scripts": {
     "build": "tsc",
+    "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build"
   },
   "repository": {
@@ -17,11 +18,12 @@
   },
   "devDependencies": {
     "@types/node": "^14.0.13",
-    "protractor": "^7.0.0"
+    "protractor": "^7.0.0",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.7"
   },
   "dependencies": {
-    "@types/node": "^14.0.13",
-    "protractor": "^7.0.0"
+    "@types/node": "^14.0.13"
   },
   "keywords": [],
   "author": "perivoje",
